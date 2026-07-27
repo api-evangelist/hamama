@@ -1,0 +1,14 @@
+{
+  "repo": "hamama",
+  "feeds": [
+    {
+      "source": "https://www.hamama.com/pages/about",
+      "feed_url": "https://www.hamama.com/pages/about",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hamama.com/.well-known/
+host: https://www.hamama.com
+notes: >-
+  Hamama's storefront runs on Shopify. The OIDC / OAuth authorization-server
+  discovery documents below are served on the hamama.com host but delegate to
+  Shopify's customer-account authentication service (issuer
+  https://shopify.com/authentication/20991305). They are platform-provided
+  customer-account auth endpoints, not a first-party Hamama developer API.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: hamama-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: hamama-oauth-authorization-server.json
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

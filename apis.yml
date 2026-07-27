@@ -1,7 +1,16 @@
 aid: hamama
 name: HAMAMA
-description: HAMAMA is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hamama is a West Sacramento, California consumer-products company that makes
+  it easy to grow fresh microgreens at home. Founded by two MIT-trained
+  mechanical engineers, Hamama sells self-watering microgreen grow kits and its
+  signature pre-seeded "Seed Quilts" (non-GMO, mostly Certified Organic) that
+  sprout edible greens in 7-10 days with nothing more than a single addition of
+  water, no soil, pesticides, or fertilizer required. The company sells grow
+  kits, ceramic trays, Seed Quilt refills, green-onion and mushroom kits, and
+  accessories directly to consumers through its Shopify storefront, offers
+  flexible subscribe-and-save refill plans, and supports growers with Growing
+  Guides, recipes, a rewards program, and a Grow Coach customer-support team.
 url: https://raw.githubusercontent.com/api-evangelist/hamama/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,33 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.hamama.com/cdn/shop/files/logo_r_slim-04_410x_8a6fdb3d-e7d7-435e-87c8-07ecad6c1f12.png?v=1673259922
 tags:
 - Company
+- Microgreens
+- Indoor Gardening
+- Home Gardening
+- Grow Kits
+- Consumer Products
+- E-Commerce
+- Food
+- Subscription
+- Sustainability
+- Health & Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://hamama.cc
+  url: https://www.hamama.com
+- type: About
+  url: https://www.hamama.com/pages/about
+- type: Blog
+  url: https://www.hamama.com/blogs/news
+- type: Support
+  url: https://hamama.gorgias.help/en-US
+- type: HelpCenter
+  url: https://hamama.gorgias.help/en-US
+- type: FAQ
+  url: https://www.hamama.com/pages/faq
+- type: GettingStarted
+  url: https://www.hamama.com/pages/how-to-grow
+- type: Pricing
+  url: https://www.hamama.com/collections/all
+- type: SignUp
+  url: https://www.hamama.com/account/register
+- type: Login
+  url: https://www.hamama.com/account/login
+- type: TermsOfService
+  url: https://www.hamama.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.hamama.com/policies/privacy-policy
+- type: WellKnown
+  url: well-known/hamama-well-known.yml
+- type: DomainSecurity
+  url: security/hamama-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
